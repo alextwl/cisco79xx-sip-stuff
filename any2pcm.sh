@@ -10,9 +10,15 @@
 # I assume that the input length shall be longer than the limit. 
 # (16080 samples == 2.010 seconds)
 #
+# p.s. Although the limit of samples in SCCP firmware was not
+#      mentioned in the documentation for SIP firmware, it does
+#      apply in SIP firmware.
+#
 # Reference:
-# CallManager Express: Add Custom Rings for Cisco 7960 and 7940 IP Phones
+# [1] CallManager Express: Add Custom Rings for Cisco 7960 and 7940 IP Phones
 # http://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-express/68483-cme-add-custom-rings.html#conf
+# [2] How to Customize Cisco Unified IP Phone 7960G and 7940G Rings
+# http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/8_0/english/administration/guide/8_0/sipmn80.html#wpxref39206
 
 function print_usage()
 {
